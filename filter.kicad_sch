@@ -837,7 +837,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "3.3uH"
 			(at 130.81 92.71 90)
 			(effects
 				(font
@@ -1011,7 +1011,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.36pF"
 			(at 137.1663 91.44 90)
 			(effects
 				(font
@@ -1099,7 +1099,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1.2pF"
 			(at 160.0263 91.44 90)
 			(effects
 				(font
@@ -1188,7 +1188,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1nF"
 			(at 120.65 104.1462 0)
 			(effects
 				(font
@@ -1278,7 +1278,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "1.2nH"
 			(at 149.86 104.1399 0)
 			(effects
 				(font
@@ -1455,7 +1455,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "1.2nH"
 			(at 127 104.1399 0)
 			(effects
 				(font
@@ -1544,7 +1544,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "1uH"
 			(at 153.67 92.71 90)
 			(effects
 				(font
@@ -1632,7 +1632,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "1uH"
 			(at 107.95 92.71 90)
 			(effects
 				(font
@@ -1721,7 +1721,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1nF"
 			(at 143.51 104.1462 0)
 			(effects
 				(font
@@ -1810,7 +1810,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1.2pF"
 			(at 114.3063 91.44 90)
 			(effects
 				(font

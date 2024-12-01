@@ -1,4 +1,4 @@
-5197674006510
+6930984385542
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96751,7 +96751,7 @@ MS148-10
 
 
 0
-2
+14
 1
 phase-detector
 TSFP-4-1
@@ -96760,3 +96760,10 @@ TSFP-4-1
 0
 4
 4
+phase-detector
+Test_Via
+
+
+0
+1
+1

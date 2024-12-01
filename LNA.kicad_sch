@@ -964,7 +964,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "50"
 			(at 157.48 82.5499 0)
 			(effects
 				(font
@@ -1044,9 +1044,9 @@
 		(at 175.26 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "09579e09-314b-4919-8748-b6861d3d19bf")
 		(property "Reference" "R18"
@@ -1058,7 +1058,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "~"
 			(at 177.8 102.8699 0)
 			(effects
 				(font
@@ -1152,7 +1152,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200 nF"
+		(property "Value" "130nH"
 			(at 148.59 92.7099 0)
 			(effects
 				(font
@@ -1246,7 +1246,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "100k"
 			(at 149.86 82.5499 0)
 			(effects
 				(font
@@ -1340,7 +1340,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200 nF"
+		(property "Value" "30nH"
 			(at 156.21 114.2999 0)
 			(effects
 				(font
@@ -1433,7 +1433,7 @@
 				)
 			)
 		)
-		(property "Value" "220 nF"
+		(property "Value" "220nF"
 			(at 163.8363 82.55 90)
 			(effects
 				(font
@@ -1616,7 +1616,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200 nF"
+		(property "Value" "260nH"
 			(at 156.21 92.7099 0)
 			(effects
 				(font
@@ -1890,7 +1890,7 @@
 				)
 			)
 		)
-		(property "Value" "220 nF"
+		(property "Value" "140nF"
 			(at 139.7063 82.55 90)
 			(effects
 				(font
@@ -1982,7 +1982,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3 pF"
+		(property "Value" "4.3 pF"
 			(at 166.3763 93.98 90)
 			(effects
 				(font
@@ -2074,7 +2074,7 @@
 				)
 			)
 		)
-		(property "Value" "43 pF"
+		(property "Value" "10pF"
 			(at 139.7063 99.06 90)
 			(effects
 				(font

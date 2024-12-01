@@ -140,127 +140,6 @@
 				)
 			)
 		)
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "phase-detector:MCP3461RT-E_NC"
 			(pin_names
 				(offset 0.254)
@@ -912,16 +791,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 92.71) (xy 161.29 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67f704e6-7045-48db-aa16-f0b973d6670e")
-	)
-	(wire
-		(pts
 			(xy 104.14 92.71) (xy 105.41 92.71)
 		)
 		(stroke
@@ -1062,7 +931,7 @@
 	)
 	(hierarchical_label "MISO"
 		(shape input)
-		(at 170.18 92.71 0)
+		(at 161.29 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1611,91 +1480,6 @@
 				)
 				(path "/b38ebd54-5e2b-4067-b9f0-d8faa1bf1436/720fc5b7-7833-4c1f-8cf6-b4c2b992425b"
 					(reference "#PWR0120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 166.37 92.71 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f4d4411-d87e-400b-8da0-c7813d520bce")
-		(property "Reference" "R15"
-			(at 167.64 90.678 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10"
-			(at 167.132 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 94.488 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 166.37 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "152a445a-d17b-4163-9e18-8297eac4c25f")
-		)
-		(pin "2"
-			(uuid "0cc31929-edec-4e89-a89c-4357f2942ccb")
-		)
-		(instances
-			(project "phase-detector"
-				(path "/b38ebd54-5e2b-4067-b9f0-d8faa1bf1436/2e945d6b-b9ee-4a5d-8657-99c87887e4e6"
-					(reference "R15")
-					(unit 1)
-				)
-				(path "/b38ebd54-5e2b-4067-b9f0-d8faa1bf1436/5bb5793e-cf1a-4f42-8634-782ace6b1aa8"
-					(reference "R29")
-					(unit 1)
-				)
-				(path "/b38ebd54-5e2b-4067-b9f0-d8faa1bf1436/5ddca4d8-7ba9-466f-8f9a-d6ec2c4272e5"
-					(reference "R12")
-					(unit 1)
-				)
-				(path "/b38ebd54-5e2b-4067-b9f0-d8faa1bf1436/654454e2-de4e-487a-b39e-c340ad052c70"
-					(reference "R21")
-					(unit 1)
-				)
-				(path "/b38ebd54-5e2b-4067-b9f0-d8faa1bf1436/720fc5b7-7833-4c1f-8cf6-b4c2b992425b"
-					(reference "R30")
 					(unit 1)
 				)
 			)

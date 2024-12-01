@@ -1582,7 +1582,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "1nF"
 			(at 125.7363 107.95 90)
 			(effects
 				(font
@@ -1748,7 +1748,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "1nF"
 			(at 125.7363 100.33 90)
 			(effects
 				(font
@@ -2070,9 +2070,9 @@
 		(at 160.02 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "75ba764e-ed09-452c-83c4-ccfa7f5af6d5")
 		(property "Reference" "C38"
 			(at 162.56 87.884 90)
@@ -2082,7 +2082,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "~"
 			(at 161.29 85.344 90)
 			(effects
 				(font
@@ -2320,9 +2320,9 @@
 		(at 160.02 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "98124130-1724-46f4-9423-be67e4eb6338")
 		(property "Reference" "C39"
 			(at 162.56 99.314 90)
@@ -2332,7 +2332,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "~"
 			(at 161.29 96.774 90)
 			(effects
 				(font
@@ -2665,7 +2665,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "1nF"
 			(at 125.7363 92.71 90)
 			(effects
 				(font
@@ -2830,7 +2830,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "1nF"
 			(at 125.7363 85.09 90)
 			(effects
 				(font
