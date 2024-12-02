@@ -1,4 +1,4 @@
-6930984385542
+15596745964857
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96747,12 +96747,40 @@ DSC1121
 6
 6
 phase-detector
-MS148-10
+MS148-10-Clip
 
 
 0
 14
 1
+phase-detector
+MS148-10-Clip_1
+
+
+0
+12
+1
+phase-detector
+MS148-10F
+
+
+0
+2
+1
+phase-detector
+MS148-10F_1
+
+
+0
+4
+1
+phase-detector
+SMA_Amphenol_132289_EdgeMount
+http://www.amphenolrf.com/132289.html
+SMA
+0
+5
+2
 phase-detector
 TSFP-4-1
 
@@ -96767,3 +96795,10 @@ Test_Via
 0
 1
 1
+phase-detector
+moon
+
+
+0
+0
+0

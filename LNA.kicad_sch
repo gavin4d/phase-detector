@@ -1152,7 +1152,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "130nH"
+		(property "Value" "140nH"
 			(at 148.59 92.7099 0)
 			(effects
 				(font
@@ -1616,7 +1616,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "260nH"
+		(property "Value" "270nH"
 			(at 156.21 92.7099 0)
 			(effects
 				(font
