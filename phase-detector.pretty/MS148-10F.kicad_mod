@@ -1,0 +1,156 @@
+(footprint "MS148-10F"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "745b72d0-7cf3-4cd9-845e-a955b0c35739")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MS148-10F"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7d121858-7ce4-465b-83c3-85a7000dcfa7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a3ff9a7-e9b6-41a6-9195-2e94ef81b088")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b925b251-ccd2-4ddd-96d8-686a25c8baa4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2a05648-b119-4f3c-88cc-b7413cda6963")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5ce4d0e6-266e-44ad-87e3-079a436700ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -7.25 -0.7)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_line
+				(start 0 0)
+				(end 0 3.9)
+				(width 1.5)
+			)
+			(gr_arc
+				(start 1.1 5)
+				(mid 0.322183 4.677817)
+				(end 0 3.9)
+				(width 1.5)
+			)
+			(gr_line
+				(start 1.1 5)
+				(end 13.4 5)
+				(width 1.5)
+			)
+			(gr_arc
+				(start 14.5 3.9)
+				(mid 14.177817 4.677817)
+				(end 13.4 5)
+				(width 1.5)
+			)
+			(gr_line
+				(start 14.5 3.5)
+				(end 14.5 3.9)
+				(width 1.5)
+			)
+		)
+		(uuid "3cac2e94-67a6-42b2-82d0-b69309967720")
+	)
+	(pad "1" smd custom
+		(at 7.25 0)
+		(size 1.5 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_line
+				(start 0 0.5)
+				(end 0 -3.2)
+				(width 1.5)
+			)
+			(gr_arc
+				(start -1.1 -4.3)
+				(mid -0.322183 -3.977817)
+				(end 0 -3.2)
+				(width 1.5)
+			)
+			(gr_line
+				(start -1.45 -4.3)
+				(end -13.4 -4.3)
+				(width 1.5)
+			)
+			(gr_arc
+				(start -14.5 -3.2)
+				(mid -14.177817 -3.977817)
+				(end -13.4 -4.3)
+				(width 1.5)
+			)
+		)
+		(uuid "2e37eaa9-bfa7-4bc5-82da-110d6c6e91db")
+	)
+)
