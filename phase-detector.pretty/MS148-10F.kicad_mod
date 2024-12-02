@@ -67,6 +67,186 @@
 		)
 	)
 	(attr smd)
+	(fp_line
+		(start -7.25 -3.25)
+		(end -7.25 -3.25)
+		(stroke
+			(width 0.9)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "dcb3d528-ad26-4467-8f8b-e6f8e9d21611")
+	)
+	(fp_line
+		(start -7.25 0.5)
+		(end -7.25 -0.5)
+		(stroke
+			(width 0.9)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "2766bb1b-84b7-4643-b4da-7b7bfd577502")
+	)
+	(fp_line
+		(start -7.25 3)
+		(end -7.25 2)
+		(stroke
+			(width 0.9)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "e2b44da3-3c4e-4e27-a6ec-b80a383db6fc")
+	)
+	(fp_line
+		(start -5.25 -4.25)
+		(end -6.25 -4.25)
+		(stroke
+			(width 0.9)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "689e6169-1b0b-486d-94e9-49174a98e087")
+	)
+	(fp_line
+		(start -5.25 4.25)
+		(end -6.25 4.25)
+		(stroke
+			(width 0.9)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "51ec7d06-d928-4487-84a1-6b74e4f3f75c")
+	)
+	(fp_line
+		(start -3 -4.25)
+		(end -4 -4.25)
+		(stroke
+			(width 0.9)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "63f985f2-1a1b-4ed3-ab66-4e6341514bc2")
+	)
+	(fp_line
+		(start -3 4.25)
+		(end -4 4.25)
+		(stroke
+			(width 0.9)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "04fa1702-6465-47b7-9cba-99df76c658be")
+	)
+	(fp_line
+		(start -0.75 -4.25)
+		(end -1.75 -4.25)
+		(stroke
+			(width 0.9)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "8e4fa5ae-8878-4698-ac43-424014043483")
+	)
+	(fp_line
+		(start -0.75 4.25)
+		(end -1.75 4.25)
+		(stroke
+			(width 0.9)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "70720fe3-47a8-4501-8705-42c5f3ebe785")
+	)
+	(fp_line
+		(start 1.5 -4.25)
+		(end 0.5 -4.25)
+		(stroke
+			(width 0.9)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "90dab630-01b0-446d-b5ae-447e0c82830d")
+	)
+	(fp_line
+		(start 1.5 4.25)
+		(end 0.5 4.25)
+		(stroke
+			(width 0.9)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "5dbc9461-3777-48de-a485-83f53c5dfdea")
+	)
+	(fp_line
+		(start 3.75 -4.25)
+		(end 2.75 -4.25)
+		(stroke
+			(width 0.9)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "96c29ca0-acd9-45a3-8c8b-fd561b2273af")
+	)
+	(fp_line
+		(start 3.75 4.25)
+		(end 2.75 4.25)
+		(stroke
+			(width 0.9)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "20009c2b-3bf7-4358-9c97-341d63e13c17")
+	)
+	(fp_line
+		(start 6 -4.25)
+		(end 5 -4.25)
+		(stroke
+			(width 0.9)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "33b90012-edaa-4bbe-b97f-05ae15d49b18")
+	)
+	(fp_line
+		(start 6 4.25)
+		(end 5 4.25)
+		(stroke
+			(width 0.9)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "a1774a7e-455a-46d3-ba85-24aedbc4bd5d")
+	)
+	(fp_line
+		(start 7.25 -2)
+		(end 7.25 -3)
+		(stroke
+			(width 0.9)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "3c0929d3-ac6c-477d-b2d6-88dba9085524")
+	)
+	(fp_line
+		(start 7.25 0.5)
+		(end 7.25 -0.5)
+		(stroke
+			(width 0.9)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "b43783a0-bb93-4405-a5b9-c6c6ed09f776")
+	)
+	(fp_line
+		(start 7.25 3)
+		(end 7.25 3)
+		(stroke
+			(width 0.9)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "857de844-8c3b-4f0f-bfbb-15da06864d3d")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
@@ -82,7 +262,7 @@
 	(pad "1" smd custom
 		(at -7.25 -0.7)
 		(size 0.6 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(options
 			(clearance outline)
 			(anchor circle)
@@ -121,7 +301,7 @@
 	(pad "1" smd custom
 		(at 7.25 0)
 		(size 1.5 0.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(thermal_bridge_angle 45)
 		(options
 			(clearance outline)
@@ -140,7 +320,7 @@
 				(width 1.5)
 			)
 			(gr_line
-				(start -1.45 -4.3)
+				(start -1.1 -4.3)
 				(end -13.4 -4.3)
 				(width 1.5)
 			)

@@ -1377,7 +1377,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "phase-detector:MS148-10"
+		(property "Footprint" "phase-detector:MS148-10F"
 			(at 119.634 126.492 0)
 			(effects
 				(font
