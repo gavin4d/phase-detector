@@ -1185,6 +1185,108 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Regulator_Linear:MIC5219-3.3YM5"
 			(pin_names
 				(offset 0.254)
@@ -2076,7 +2178,7 @@
 		(uuid "5d54ec0a-c007-49e2-87f0-50aea02d27ec")
 	)
 	(junction
-		(at 233.68 74.93)
+		(at 210.82 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6770fd33-9045-4ee5-9c48-ecccbea4229e")
@@ -2088,13 +2190,13 @@
 		(uuid "8d4ecfa9-d3ac-4982-97be-1bcf09c48735")
 	)
 	(junction
-		(at 232.41 74.93)
+		(at 209.55 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9be7713c-5d11-44a8-997e-231d2fa81788")
 	)
 	(junction
-		(at 234.95 74.93)
+		(at 212.09 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab4feb1d-e5e8-4368-93ff-a83806321e5f")
@@ -2293,7 +2395,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 74.93) (xy 236.22 74.93)
+			(xy 212.09 66.04) (xy 213.36 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2453,7 +2555,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 74.93) (xy 232.41 78.74)
+			(xy 209.55 66.04) (xy 209.55 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2793,7 +2895,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 74.93) (xy 233.68 74.93)
+			(xy 209.55 66.04) (xy 210.82 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3063,7 +3165,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 71.12) (xy 233.68 74.93)
+			(xy 210.82 62.23) (xy 210.82 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3133,7 +3235,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 74.93) (xy 234.95 78.74)
+			(xy 212.09 66.04) (xy 212.09 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3143,7 +3245,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 74.93) (xy 232.41 74.93)
+			(xy 208.28 66.04) (xy 209.55 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3253,7 +3355,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 74.93) (xy 234.95 74.93)
+			(xy 210.82 66.04) (xy 212.09 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3923,7 +4025,7 @@
 	)
 	(global_label "SCK"
 		(shape input)
-		(at 214.63 88.9 180)
+		(at 191.77 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3933,7 +4035,7 @@
 		)
 		(uuid "93dc5596-f7c3-417d-a45a-df2555eef71f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.8953 88.9 0)
+			(at 185.0353 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4011,7 +4113,7 @@
 	)
 	(global_label "CS5"
 		(shape input)
-		(at 214.63 93.98 180)
+		(at 191.77 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4021,7 +4123,7 @@
 		)
 		(uuid "ab6e8db9-4ff4-430a-9e41-02a20bf71883")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.9558 93.98 0)
+			(at 185.0958 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4143,7 +4245,7 @@
 	)
 	(global_label "MISO"
 		(shape input)
-		(at 214.63 91.44 180)
+		(at 191.77 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4153,7 +4255,7 @@
 		)
 		(uuid "c384648d-a094-41fb-b0e7-8264244796d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.0486 91.44 0)
+			(at 184.1886 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4407,7 +4509,7 @@
 	)
 	(global_label "CS6"
 		(shape input)
-		(at 214.63 96.52 180)
+		(at 191.77 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4417,7 +4519,7 @@
 		)
 		(uuid "f39e5b9c-465d-4ddc-83a5-a0578916d669")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.9558 96.52 0)
+			(at 185.0958 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4869,6 +4971,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 264.16 102.87 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dadd7a5-b3ec-45af-ad48-eaded52f5b64")
+		(property "Reference" "H4"
+			(at 262.89 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 262.89 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 264.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 264.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6bbebc8-6b17-4ca1-85bb-bc724ba84817")
+		)
+		(instances
+			(project "phase-detector"
+				(path "/b38ebd54-5e2b-4067-b9f0-d8faa1bf1436"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 100.33 41.91 90)
 		(unit 1)
@@ -5165,7 +5332,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+		(property "Footprint" "phase-detector:SMA_Amphenol_132289_EdgeMount"
 			(at 30.48 62.23 0)
 			(effects
 				(font
@@ -5299,7 +5466,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+		(property "Footprint" "phase-detector:SMA_Amphenol_132289_EdgeMount"
 			(at 30.48 153.67 0)
 			(effects
 				(font
@@ -5409,7 +5576,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 250.19 104.14 0)
+		(at 227.33 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5418,7 +5585,7 @@
 		(fields_autoplaced yes)
 		(uuid "1fd81c2c-4643-4dc7-ac10-7f08f42845e2")
 		(property "Reference" "#PWR037"
-			(at 250.19 110.49 0)
+			(at 227.33 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5427,7 +5594,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 250.19 109.22 0)
+			(at 227.33 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5435,7 +5602,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 104.14 0)
+			(at 227.33 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5444,7 +5611,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 104.14 0)
+			(at 227.33 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5453,7 +5620,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 250.19 104.14 0)
+			(at 227.33 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5468,6 +5635,73 @@
 			(project "phase-detector"
 				(path "/b38ebd54-5e2b-4067-b9f0-d8faa1bf1436"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 266.7 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "244799cb-319d-4bf4-a5a0-7bcd87f8d939")
+		(property "Reference" "#PWR0160"
+			(at 273.05 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 270.51 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54cebacf-a586-4c06-8bff-f3e93fcf58de")
+		)
+		(instances
+			(project "phase-detector"
+				(path "/b38ebd54-5e2b-4067-b9f0-d8faa1bf1436"
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -5873,6 +6107,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 266.7 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39b99eab-fe32-4a43-a57e-7d3e361f7914")
+		(property "Reference" "#PWR0161"
+			(at 273.05 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 270.51 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "969d35dc-ca58-46bf-81df-3e50e36534f4")
+		)
+		(instances
+			(project "phase-detector"
+				(path "/b38ebd54-5e2b-4067-b9f0-d8faa1bf1436"
+					(reference "#PWR0161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 271.78 26.67 0)
 		(unit 1)
@@ -6034,7 +6335,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+		(property "Footprint" "phase-detector:SMA_Amphenol_132289_EdgeMount"
 			(at 30.48 123.19 0)
 			(effects
 				(font
@@ -6413,7 +6714,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 226.06 74.93 0)
+		(at 203.2 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6421,7 +6722,7 @@
 		(dnp no)
 		(uuid "50a338f4-89a7-4026-bc93-b514d47329f8")
 		(property "Reference" "#PWR031"
-			(at 226.06 81.28 0)
+			(at 203.2 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6430,7 +6731,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 226.06 79.248 0)
+			(at 203.2 70.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6438,7 +6739,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 74.93 0)
+			(at 203.2 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6447,7 +6748,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 74.93 0)
+			(at 203.2 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6456,7 +6757,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 74.93 0)
+			(at 203.2 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6471,6 +6772,73 @@
 			(project "phase-detector"
 				(path "/b38ebd54-5e2b-4067-b9f0-d8faa1bf1436"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 266.7 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58b0c7b1-02b1-416a-917e-73d98456ed2a")
+		(property "Reference" "#PWR0162"
+			(at 273.05 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 270.51 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "957cb81d-e034-4603-b269-aa2e283b8af4")
+		)
+		(instances
+			(project "phase-detector"
+				(path "/b38ebd54-5e2b-4067-b9f0-d8faa1bf1436"
+					(reference "#PWR0162")
 					(unit 1)
 				)
 			)
@@ -6568,7 +6936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+		(property "Footprint" "phase-detector:SMA_Amphenol_132289_EdgeMount"
 			(at 30.48 92.71 0)
 			(effects
 				(font
@@ -7238,7 +7606,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 241.3 74.93 0)
+		(at 218.44 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7246,7 +7614,7 @@
 		(dnp no)
 		(uuid "75636cf8-67bc-4bae-a348-44764b6e4cb3")
 		(property "Reference" "#PWR036"
-			(at 241.3 81.28 0)
+			(at 218.44 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7255,7 +7623,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 245.618 76.962 0)
+			(at 222.758 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7263,7 +7631,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 74.93 0)
+			(at 218.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7272,7 +7640,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 74.93 0)
+			(at 218.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7281,7 +7649,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 74.93 0)
+			(at 218.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7430,6 +7798,71 @@
 			(project "phase-detector"
 				(path "/b38ebd54-5e2b-4067-b9f0-d8faa1bf1436"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 264.16 113.03 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79e4b660-9efb-4f7f-9c7e-dbd4ba34dda7")
+		(property "Reference" "H5"
+			(at 262.89 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 262.89 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 264.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 264.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "088e3d48-04bb-4b7a-9ad1-2eb79c8452f8")
+		)
+		(instances
+			(project "phase-detector"
+				(path "/b38ebd54-5e2b-4067-b9f0-d8faa1bf1436"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -7595,7 +8028,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+		(property "Footprint" "phase-detector:SMA_Amphenol_132289_EdgeMount"
 			(at 30.48 31.75 0)
 			(effects
 				(font
@@ -7832,6 +8265,71 @@
 			(project "phase-detector"
 				(path "/b38ebd54-5e2b-4067-b9f0-d8faa1bf1436"
 					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 264.16 82.55 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8eeff19c-8cd5-4eca-ab64-556b1040a799")
+		(property "Reference" "H2"
+			(at 262.89 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 262.89 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 264.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 264.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2ebb153-a630-41e8-a7b4-614776ea2ce2")
+		)
+		(instances
+			(project "phase-detector"
+				(path "/b38ebd54-5e2b-4067-b9f0-d8faa1bf1436"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -8145,7 +8643,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 232.41 109.22 0)
+		(at 209.55 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8154,7 +8652,7 @@
 		(fields_autoplaced yes)
 		(uuid "95838363-d35c-4b16-95cb-93ea6166374f")
 		(property "Reference" "#PWR033"
-			(at 232.41 115.57 0)
+			(at 209.55 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8163,7 +8661,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 232.41 114.3 0)
+			(at 209.55 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8171,7 +8669,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 109.22 0)
+			(at 209.55 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8180,7 +8678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 109.22 0)
+			(at 209.55 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8189,7 +8687,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 109.22 0)
+			(at 209.55 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8344,7 +8842,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 250.19 93.98 270)
+		(at 227.33 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8352,7 +8850,7 @@
 		(dnp no)
 		(uuid "a3e25b7d-5715-4918-b3ea-79a3d0900b64")
 		(property "Reference" "TP3"
-			(at 261.874 93.98 90)
+			(at 239.014 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8361,7 +8859,7 @@
 			)
 		)
 		(property "Value" "INT_1"
-			(at 255.016 93.98 90)
+			(at 232.156 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8370,7 +8868,7 @@
 			)
 		)
 		(property "Footprint" "phase-detector:Test_Via"
-			(at 250.19 99.06 0)
+			(at 227.33 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8379,7 +8877,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 99.06 0)
+			(at 227.33 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8388,7 +8886,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 250.19 93.98 0)
+			(at 227.33 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8679,6 +9177,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 266.7 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0db1bce-7eec-4198-8b1f-978473b05853")
+		(property "Reference" "#PWR0159"
+			(at 273.05 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 270.51 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01fe31e5-6c28-4ee1-9b9b-da6d5a6ffa7d")
+		)
+		(instances
+			(project "phase-detector"
+				(path "/b38ebd54-5e2b-4067-b9f0-d8faa1bf1436"
+					(reference "#PWR0159")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 53.34 147.32 0)
 		(unit 1)
@@ -8879,6 +9444,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 264.16 92.71 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b89849c5-9cf4-4a71-973f-42d3241c2a3b")
+		(property "Reference" "H3"
+			(at 262.89 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 262.89 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 264.16 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 264.16 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a77db7b-ad13-4d83-828a-058486f02226")
+		)
+		(instances
+			(project "phase-detector"
+				(path "/b38ebd54-5e2b-4067-b9f0-d8faa1bf1436"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 116.84 87.63 0)
 		(unit 1)
@@ -8946,7 +9576,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 233.68 71.12 0)
+		(at 210.82 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8954,7 +9584,7 @@
 		(dnp no)
 		(uuid "c98e8c28-48e5-4ae5-96dd-7524fda8caec")
 		(property "Reference" "#PWR032"
-			(at 233.68 74.93 0)
+			(at 210.82 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8963,7 +9593,7 @@
 			)
 		)
 		(property "Value" "+3.3V-D"
-			(at 228.6 67.056 0)
+			(at 205.74 58.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8972,7 +9602,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 71.12 0)
+			(at 210.82 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8981,7 +9611,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 71.12 0)
+			(at 210.82 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8990,7 +9620,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 233.68 71.12 0)
+			(at 210.82 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9078,7 +9708,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 238.76 74.93 90)
+		(at 215.9 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9086,7 +9716,7 @@
 		(dnp no)
 		(uuid "cdaf4de1-bcd6-42ee-a699-3f07d471fa2e")
 		(property "Reference" "C2"
-			(at 238.76 70.358 90)
+			(at 215.9 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9094,7 +9724,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 238.76 72.136 90)
+			(at 215.9 63.246 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9102,7 +9732,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 238.76 74.93 0)
+			(at 215.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9111,7 +9741,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 74.93 0)
+			(at 215.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9120,7 +9750,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 238.76 74.93 0)
+			(at 215.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9344,7 +9974,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 250.19 88.9 270)
+		(at 227.33 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9352,7 +9982,7 @@
 		(dnp no)
 		(uuid "d519a8d9-f97a-46c0-bfcd-7bd2a79fcfcd")
 		(property "Reference" "TP1"
-			(at 262.128 88.646 90)
+			(at 239.268 79.756 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9361,7 +9991,7 @@
 			)
 		)
 		(property "Value" "INT_2"
-			(at 255.016 88.9 90)
+			(at 232.156 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9370,7 +10000,7 @@
 			)
 		)
 		(property "Footprint" "phase-detector:Test_Via"
-			(at 250.19 93.98 0)
+			(at 227.33 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9379,7 +10009,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 93.98 0)
+			(at 227.33 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9388,7 +10018,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 250.19 88.9 0)
+			(at 227.33 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9434,7 +10064,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132291-12_Vertical"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134_Vertical"
 			(at 30.48 184.15 0)
 			(effects
 				(font
@@ -9678,7 +10308,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 228.6 74.93 90)
+		(at 205.74 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9686,7 +10316,7 @@
 		(dnp no)
 		(uuid "de2b72d8-8433-4ea2-a86d-955d95998bc2")
 		(property "Reference" "C1"
-			(at 228.6 70.358 90)
+			(at 205.74 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9694,7 +10324,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 228.6 72.39 90)
+			(at 205.74 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9702,7 +10332,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 228.6 74.93 0)
+			(at 205.74 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9711,7 +10341,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 74.93 0)
+			(at 205.74 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9720,7 +10350,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 228.6 74.93 0)
+			(at 205.74 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9738,6 +10368,73 @@
 			(project "phase-detector"
 				(path "/b38ebd54-5e2b-4067-b9f0-d8faa1bf1436"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 266.7 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfb26da8-cc80-4544-8bf2-6c6cfac21aee")
+		(property "Reference" "#PWR0163"
+			(at 273.05 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 270.51 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf94dcda-3e89-4910-a82c-84fd2d10d256")
+		)
+		(instances
+			(project "phase-detector"
+				(path "/b38ebd54-5e2b-4067-b9f0-d8faa1bf1436"
+					(reference "#PWR0163")
 					(unit 1)
 				)
 			)
@@ -10092,7 +10789,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 250.19 91.44 270)
+		(at 227.33 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10100,7 +10797,7 @@
 		(dnp no)
 		(uuid "ea155f3c-0787-4808-b23f-2458ab99d0ba")
 		(property "Reference" "TP2"
-			(at 261.874 91.186 90)
+			(at 239.014 82.296 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10109,7 +10806,7 @@
 			)
 		)
 		(property "Value" "DRDY"
-			(at 255.016 91.44 90)
+			(at 232.156 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10118,7 +10815,7 @@
 			)
 		)
 		(property "Footprint" "phase-detector:Test_Via"
-			(at 250.19 96.52 0)
+			(at 227.33 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10127,7 +10824,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 96.52 0)
+			(at 227.33 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10136,7 +10833,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 250.19 91.44 0)
+			(at 227.33 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10151,6 +10848,71 @@
 			(project "phase-detector"
 				(path "/b38ebd54-5e2b-4067-b9f0-d8faa1bf1436"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 264.16 72.39 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eefcc5fa-c66e-4cd8-b69b-3f5316288032")
+		(property "Reference" "H1"
+			(at 262.89 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 262.89 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 264.16 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 264.16 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "919dc980-c031-45e1-a414-1d587db4d655")
+		)
+		(instances
+			(project ""
+				(path "/b38ebd54-5e2b-4067-b9f0-d8faa1bf1436"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -10363,7 +11125,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Motion:LSM303C")
-		(at 232.41 93.98 0)
+		(at 209.55 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10372,7 +11134,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8ec6da8-b1bb-4069-8162-7e1b63e89208")
 		(property "Reference" "U14"
-			(at 234.6041 107.95 0)
+			(at 211.7441 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10381,7 +11143,7 @@
 			)
 		)
 		(property "Value" "LSM303C"
-			(at 234.6041 110.49 0)
+			(at 211.7441 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10390,7 +11152,7 @@
 			)
 		)
 		(property "Footprint" "Package_LGA:LGA-12_2x2mm_P0.5mm"
-			(at 233.68 113.03 0)
+			(at 210.82 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10399,7 +11161,7 @@
 			)
 		)
 		(property "Datasheet" "www.st.com/resource/en/datasheet/lsm303c.pdf"
-			(at 234.95 110.49 0)
+			(at 212.09 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10408,7 +11170,7 @@
 			)
 		)
 		(property "Description" "I2C/SPI, 3D Accelerometer and 3D Magnetometer"
-			(at 232.41 93.98 0)
+			(at 209.55 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10529,7 +11291,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 250.19 101.6 0)
+		(at 227.33 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10538,7 +11300,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb94100f-3e84-40dc-903a-af9bd3309e58")
 		(property "Reference" "C5"
-			(at 252.73 100.3362 0)
+			(at 229.87 91.4462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10547,7 +11309,7 @@
 			)
 		)
 		(property "Value" "220nF"
-			(at 252.73 102.8762 0)
+			(at 229.87 93.9862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10556,7 +11318,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 250.19 101.6 0)
+			(at 227.33 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10565,7 +11327,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 101.6 0)
+			(at 227.33 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10574,7 +11336,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 250.19 101.6 0)
+			(at 227.33 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
